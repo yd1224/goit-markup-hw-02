@@ -1,7 +1,7 @@
 /* Global-styles */
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 .link {
@@ -37,6 +37,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.header-nav-list-item-link:hover,
+.header-nav-list-item-link:focus {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
 .header-address-list {
 }
 .header-address-list-item {
@@ -50,6 +57,10 @@ body {
   letter-spacing: 0.32px;
   font-style: normal;
 }
+.header-address-list-item-link:hover,
+.header-address-list-item-link:focus {
+  color: #404bbf;
+}
 /* Hero-styles */
 .hero-section {
   background-color: #2e2f42;
@@ -60,16 +71,20 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 .hero-section-btn {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-family: Roboto, sans-serif;
   background-color: #4d5ae5;
   text-align: center;
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-section-btn:hover,
+.hero-section-btn:focus {
+  background-color: #404bbf;
 }
