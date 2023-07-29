@@ -54,6 +54,46 @@ body {
 .header-address-list-item-link:focus {
   color: #404bbf;
 }
+/* Section-styles */
+
+.btn-list {
+}
+.btn-list-item {
+}
+.btn {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+  color: #fff;
+}
+
+.section-list-link-img {
+}
+.section-list-link-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.section-list-link-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #434455;
+}
 
 /* Footer-styles */
 .footer {
