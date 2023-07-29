@@ -1,8 +1,17 @@
+:root {
+  --brand-color: #4d5ae5;
+  --navyblue: #2e2f42;
+  --bcg: #fff;
+  --body-text: #434455;
+  --pressed-state: #404bbf;
+  --footer-light: #f4f4fd;
+}
+/* Studio */
 /* Global-styles */
 body {
   font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: var(--body-text);
+  background-color: var(--bcg);
 }
 .link {
   text-decoration: none;
@@ -14,7 +23,7 @@ body {
 .header {
 }
 .header-logo {
-  color: #4d5ae5;
+  color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
   font-family: Raleway, sans-serif;
@@ -23,10 +32,10 @@ body {
   letter-spacing: 0.54px;
 }
 .header-accent {
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 .header-nav-list-item-link {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   font-family: Roboto, sans-serif;
@@ -35,14 +44,14 @@ body {
 }
 .header-nav-list-item-link:hover,
 .header-nav-list-item-link:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 .header-address {
   font-style: normal;
 }
 
 .header-address-list-item-link {
-  color: #434455;
+  color: var(--body-text);
   font-size: 16px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
@@ -52,14 +61,14 @@ body {
 }
 .header-address-list-item-link:hover,
 .header-address-list-item-link:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 /* Hero-styles */
 .hero-section {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
 }
 .hero-section-title {
-  color: #fff;
+  color: var(--bcg);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -67,24 +76,24 @@ body {
   text-align: center;
 }
 .hero-section-btn {
-  color: #fff;
+  color: var(--bcg);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: Roboto, sans-serif;
-  background-color: #4d5ae5;
+  background-color: var(--brand-color);
   text-align: center;
   cursor: pointer;
 }
 .hero-section-btn:hover,
 .hero-section-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
 }
 /* Advantages-styles */
 
 .advantages-section-list-item-title {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -103,25 +112,28 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
 }
 /* Team-styles */
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--footer-light);
+}
+.team-section-list-item {
+  background-color: var(--bcg);
 }
 .team-section-title {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
 }
 
 .team-section-list-subtitle {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -137,11 +149,11 @@ body {
 }
 /* Footer-styles */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
 }
 
 .footer-logo {
-  color: #4d5ae5;
+  color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
   font-family: Raleway, sans-serif;
@@ -150,12 +162,55 @@ body {
   letter-spacing: 0.54px;
 }
 .footer-accent {
-  color: #f4f4fd;
+  color: var(--footer-light);
 }
 .footer-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #f4f4fd;
+  color: var(--footer-light);
+}
+
+/* Portfolio */
+/* Section-styles */
+
+.btn-list {
+}
+.btn-list-item {
+}
+.btn {
+  background-color: var(--footer-light);
+  color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--pressed-state);
+  color: var(--bcg);
+}
+
+.section-list-link-img {
+}
+.section-list-link-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.section-list-link-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: var(--body-text);
 }
