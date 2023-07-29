@@ -114,6 +114,7 @@ body {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  color: var(--navyblue);
 }
 /* Team-styles */
 
@@ -130,6 +131,7 @@ body {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  color: var(--navyblue);
 }
 
 .team-section-list-subtitle {
