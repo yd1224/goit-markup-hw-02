@@ -25,10 +25,6 @@ body {
 .header-accent {
   color: #2e2f42;
 }
-.header-nav-list {
-}
-.header-nav-list-item {
-}
 .header-nav-list-item-link {
   color: #2e2f42;
   font-size: 16px;
@@ -44,10 +40,7 @@ body {
 .header-address {
   font-style: normal;
 }
-.header-address-list {
-}
-.header-address-list-item {
-}
+
 .header-address-list-item-link {
   color: #434455;
   font-size: 16px;
@@ -87,4 +80,82 @@ body {
 .hero-section-btn:hover,
 .hero-section-btn:focus {
   background-color: #404bbf;
+}
+/* Advantages-styles */
+
+.advantages-section-list-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.advantages-section-list-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* Offers-styles */
+
+.offers-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+}
+/* Team-styles */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+}
+
+.team-section-list-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.team-section-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+/* Footer-styles */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+.footer-accent {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
 }
